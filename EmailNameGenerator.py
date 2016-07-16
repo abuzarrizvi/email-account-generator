@@ -62,5 +62,5 @@ file.close()
 #count = len(x) / target_size;
 
 #emails = [ x[i:i+target_size] for i in range(0, len(x), target_size) ];
-
+print("Successfully created emails.txt\n Please open up \"EmailAccountGenerator.py\" and enter in the same ammount of emails as you did here");
 driver.close();
